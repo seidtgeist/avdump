@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4EC410714828DE200113CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EC410614828DE200113CB6 /* Foundation.framework */; };
+		D498E55A1492D6640048BCCD /* AVDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = D498E5591492D6640048BCCD /* AVDumper.m */; };
+		D498E5791492D9F70048BCCD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E55C1492D6870048BCCD /* AVFoundation.framework */; };
+		D498E57A1492D9F70048BCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EC410614828DE200113CB6 /* Foundation.framework */; };
+		D498E57B1492D9FF0048BCCD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E5681492D6B00048BCCD /* CoreVideo.framework */; };
+		D498E57C1492DA080048BCCD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E56A1492D6BC0048BCCD /* CoreMedia.framework */; };
+		D498E57D1492DA120048BCCD /* libavcodec.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E55E1492D6930048BCCD /* libavcodec.dylib */; };
+		D498E57E1492DA120048BCCD /* libavfilter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E55F1492D6930048BCCD /* libavfilter.dylib */; };
+		D498E57F1492DA120048BCCD /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E5601492D6930048BCCD /* libavformat.dylib */; };
+		D498E5801492DA120048BCCD /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E5611492D6930048BCCD /* libavutil.dylib */; };
+		D498E5821492DA120048BCCD /* libavdevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E5811492DA120048BCCD /* libavdevice.dylib */; };
+		D498E5831492DA170048BCCD /* libswscale.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E5661492D69D0048BCCD /* libswscale.dylib */; };
+		D498E86E1492DAB90048BCCD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498E86C1492DAA50048BCCD /* ApplicationServices.framework */; };
 		D4EC410A14828DE200113CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EC410914828DE200113CB6 /* main.m */; };
 		D4EC410E14828DE200113CB6 /* avdump.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4EC410D14828DE200113CB6 /* avdump.1 */; };
 /* End PBXBuildFile section */
@@ -26,10 +37,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D498E5581492D6640048BCCD /* AVDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVDumper.h; sourceTree = "<group>"; };
+		D498E5591492D6640048BCCD /* AVDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVDumper.m; sourceTree = "<group>"; };
+		D498E55C1492D6870048BCCD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D498E55E1492D6930048BCCD /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = usr/local/lib/libavcodec.dylib; sourceTree = SDKROOT; };
+		D498E55F1492D6930048BCCD /* libavfilter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.dylib; path = usr/local/lib/libavfilter.dylib; sourceTree = SDKROOT; };
+		D498E5601492D6930048BCCD /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = usr/local/lib/libavformat.dylib; sourceTree = SDKROOT; };
+		D498E5611492D6930048BCCD /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = usr/local/lib/libavutil.dylib; sourceTree = SDKROOT; };
+		D498E5661492D69D0048BCCD /* libswscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.dylib; path = usr/local/lib/libswscale.dylib; sourceTree = SDKROOT; };
+		D498E5681492D6B00048BCCD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D498E56A1492D6BC0048BCCD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D498E5811492DA120048BCCD /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = usr/local/lib/libavdevice.dylib; sourceTree = SDKROOT; };
+		D498E86C1492DAA50048BCCD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		D4EC410214828DE200113CB6 /* avdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = avdump; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EC410614828DE200113CB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4EC410914828DE200113CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4EC410C14828DE200113CB6 /* avdump-Prefix.pch */ = {isa = PBXFileReference; path = "avdump-Prefix.pch"; sourceTree = "<group>"; };
+		D4EC410C14828DE200113CB6 /* avdump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "avdump-Prefix.pch"; sourceTree = "<group>"; };
 		D4EC410D14828DE200113CB6 /* avdump.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = avdump.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +61,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4EC410714828DE200113CB6 /* Foundation.framework in Frameworks */,
+				D498E86E1492DAB90048BCCD /* ApplicationServices.framework in Frameworks */,
+				D498E5791492D9F70048BCCD /* AVFoundation.framework in Frameworks */,
+				D498E57C1492DA080048BCCD /* CoreMedia.framework in Frameworks */,
+				D498E57B1492D9FF0048BCCD /* CoreVideo.framework in Frameworks */,
+				D498E57A1492D9F70048BCCD /* Foundation.framework in Frameworks */,
+				D498E5831492DA170048BCCD /* libswscale.dylib in Frameworks */,
+				D498E5821492DA120048BCCD /* libavdevice.dylib in Frameworks */,
+				D498E57D1492DA120048BCCD /* libavcodec.dylib in Frameworks */,
+				D498E57E1492DA120048BCCD /* libavfilter.dylib in Frameworks */,
+				D498E57F1492DA120048BCCD /* libavformat.dylib in Frameworks */,
+				D498E5801492DA120048BCCD /* libavutil.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +81,12 @@
 		D4EC40F714828DE200113CB6 = {
 			isa = PBXGroup;
 			children = (
+				D498E5811492DA120048BCCD /* libavdevice.dylib */,
+				D498E5661492D69D0048BCCD /* libswscale.dylib */,
+				D498E55E1492D6930048BCCD /* libavcodec.dylib */,
+				D498E55F1492D6930048BCCD /* libavfilter.dylib */,
+				D498E5601492D6930048BCCD /* libavformat.dylib */,
+				D498E5611492D6930048BCCD /* libavutil.dylib */,
 				D4EC410814828DE200113CB6 /* avdump */,
 				D4EC410514828DE200113CB6 /* Frameworks */,
 				D4EC410314828DE200113CB6 /* Products */,
@@ -65,6 +104,10 @@
 		D4EC410514828DE200113CB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D498E86C1492DAA50048BCCD /* ApplicationServices.framework */,
+				D498E55C1492D6870048BCCD /* AVFoundation.framework */,
+				D498E56A1492D6BC0048BCCD /* CoreMedia.framework */,
+				D498E5681492D6B00048BCCD /* CoreVideo.framework */,
 				D4EC410614828DE200113CB6 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				D4EC410914828DE200113CB6 /* main.m */,
+				D498E5581492D6640048BCCD /* AVDumper.h */,
+				D498E5591492D6640048BCCD /* AVDumper.m */,
 				D4EC410D14828DE200113CB6 /* avdump.1 */,
 				D4EC410B14828DE200113CB6 /* Supporting Files */,
 			);
@@ -139,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EC410A14828DE200113CB6 /* main.m in Sources */,
+				D498E55A1492D6640048BCCD /* AVDumper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +275,7 @@
 				D4EC411314828DE200113CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
