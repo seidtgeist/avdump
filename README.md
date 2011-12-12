@@ -8,6 +8,11 @@ Is
 
 a bettername?
 
+## Links
+
+- [ffmpeg ubuntu - HOWTO: Proper Screencasting on Linux](http://ubuntuforums.org/showthread.php?t=786095)
+- [ffmpeg ubuntu - HOWTO: Install and use the latest FFmpeg and x264](http://ubuntuforums.org/showthread.php?p=8746719)
+
 ## Beautification / internals
 
 - Functionality should be inside a class, main should only do the necessary
