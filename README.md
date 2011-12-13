@@ -12,6 +12,9 @@ a bettername?
 
 - [ffmpeg ubuntu - HOWTO: Proper Screencasting on Linux](http://ubuntuforums.org/showthread.php?t=786095)
 - [ffmpeg ubuntu - HOWTO: Install and use the latest FFmpeg and x264](http://ubuntuforums.org/showthread.php?p=8746719)
+- [paketstan - Face Time reverse engineering 1/3](http://www.packetstan.com/2010/07/special-look-face-time-part-1.html)
+- [paketstan - Face Time reverse engineering 2/3](http://www.packetstan.com/2010/07/special-look-face-time-part-2-sip-and.html)
+- [paketstan - Face Time reverse engineering 3/3](http://www.packetstan.com/2010/07/special-look-face-time-part-3-call.html)
 
 ## Beautification / internals
 
