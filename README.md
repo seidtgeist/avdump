@@ -46,10 +46,10 @@ Screen capture example:
 
 Listing cams, audio ins & screens (--cam or --camera?):
 
-  avdump --cam --audio --screen
-  
-  #shorthand args
-  avdump -c -a -s
+    avdump --cam --audio --screen
+    
+    #shorthand args
+    avdump -c -a -s
 
 Default is video settings determined by AVFoundation, default output is stdout:
 
